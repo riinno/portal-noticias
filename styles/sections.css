@@ -73,11 +73,26 @@ section header
 
 #weekly 
 {
-  padding-block: 80px;
-
   img 
   {
     width: 100%;
     object-fit: cover;
+  }
+
+  figure 
+  {
+    position: relative;
+
+    .content-tag 
+    {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+    }
+
+    p 
+    {
+      margin-top: 8px;
+    }
   }
 }
