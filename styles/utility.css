@@ -1,4 +1,8 @@
-/* utility-first */
+/* UTILITY-FIRST */
+
+/* ------------- */
+/* grid utilitys */
+/* ------------- */
 .grid 
 {
   display: grid;
@@ -14,10 +18,19 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid-cols-4
+{
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .gap-16 
 {
   gap: 16px;
 }
+
+/* ------------- */
+/* text utilitys */
+/* ------------- */
 
 .text-2xl 
 {
@@ -37,4 +50,13 @@
 .text-sm
 {
   font: var(--text-sm);
+}
+
+/* -------------- */
+/* color utilitys */
+/* -------------- */
+
+.color-secondary 
+{
+  color: var(--text-color-secondary);
 }

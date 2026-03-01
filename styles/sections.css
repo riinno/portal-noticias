@@ -1,3 +1,29 @@
+section header 
+{
+  border-top: solid 1px var(--stroke-color);
+  padding-block: 12px 24px;
+  font: var(--text-span);
+
+  a
+  {
+    justify-self: end;
+    align-items: center;
+    gap: 8px;
+
+    figure
+    {
+      background-image: url(../assets/icons/ArrowRight.svg);
+      width: 16px;
+      height: 16px;
+    }
+
+    &:hover figure
+    {
+      background-image: url(../assets/icons/ArrowRight-hover.svg);
+    }
+  }
+}
+
 #featured 
 {
   img 
@@ -42,5 +68,16 @@
         margin-top: 8px;
       }
     }
+  }
+}
+
+#weekly 
+{
+  padding-block: 80px;
+
+  img 
+  {
+    width: 100%;
+    object-fit: cover;
   }
 }
