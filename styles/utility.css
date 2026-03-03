@@ -23,9 +23,24 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-cols-2x1 
+{
+  grid-template-columns: 2fr 1.4fr;
+}
+
+.gap-8 
+{
+  gap: 8px;
+}
+
 .gap-16 
 {
   gap: 16px;
+}
+
+.gap-32 
+{
+  gap: 32px;
 }
 
 /* ------------- */
