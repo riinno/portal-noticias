@@ -6,9 +6,9 @@
 
 <h2>Formação Fullstack da Rocketseat</h2>
 
-O Portal foi desenvolido durante a seção "Projeto: Portal de Notícias", e foi um ótimo treino focado na tecnologia de Grid em CSS. 
+O Portal foi desenvolido durante a seção 'Projeto: Portal de Notícias' do módulo 'Layouts avançados com CSS' da formação Fullstack da Rocketseat, e foi um ótimo treino focado na tecnologia de Grid em CSS.
 
-O site possui aplicações de diversos tipos de conceito de front-end, como:
+O site possui aplicação de diversos conceitos de front-end, como:
   - Estruturação do projeto com `diretórios por categoria` (assets, icons, styles, etc.);
   - `Diversos stylesheets (CSS)`, conectados por um `index.css`;
   - Utilização de `tags semânticas`, de maneira apropriada;
